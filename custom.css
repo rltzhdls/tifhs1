@@ -1,0 +1,95 @@
+.main-text,.main-text p{
+    padding-left:0;
+    margin:0 auto;
+    text-align:center
+}
+.main-text{
+    position:absolute;
+    top:0;
+    width:100%;
+    color:#fff;
+    padding-top:50px
+}
+.main-text p{
+    font-family:DNFForgedBlade!important
+}
+.main-text1:after{
+    
+}
+.main-text .main-text2:after{
+    content: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJpXnje3kgYq9z7UX49oig_EP5vrpNINQ2Zahufim488HDVQ4rBXKlSvub1u2tfHu5Nvh6ceZrQi-gO9fdVQnw-qCZWBwnnsuS5MUnX7Ntp7lKr9DUQ1qJ2lvrh4JB3c9XNoDKCghotuerZNatl8Y-PL2smWphgEa4MZiiM_0TYtE3I9nDPDHDrET7mlc/s16000/%EC%83%A4%EB%A1%A0%EB%A1%9C%EA%B3%A0.png");
+    font-size: 51px;
+    text-shadow: #C38B61 1px 1px, #000 0px 0px, #000 1px 1px, #000 2px 2px, #000 3px 3px, #C38B61 4px 4px, #000 5px 5px;
+    color: #FAECC5;
+}
+@keyframes neon-flicker{
+    0%{
+        text-shadow:0 0 10px rgba(102,37,.7),0 0 20px rgba(102,37,.7),0 0 30px rgba(102,37,.7)
+    }
+    100%{
+        text-shadow:0 0 20px rgba(102,37,.7),0 0 30px rgba(102,37,.7),0 0 40px rgba(102,37,.7)
+    }
+}
+.main-date span{
+    background:#121212;
+    font-size:30px;
+    color:#fff;
+border:1px solid #DB9700;
+    word-break:keep-all;
+    word-wrap:break-word;
+    border-radius:15px;
+    opacity:.83;
+    padding:10px 30px;
+    font-family:DNFForgedBlade!important;
+display:none;
+}
+.section-promotion{
+    top:0;
+}
+.section-promotion .section-promotion__list{
+    height:460px!important
+}
+@media screen and (max-width:1024px){
+    .main-text{
+        padding-top:0px !important;
+    }
+.main-text1 {
+display:none !important;
+}
+	.main-text1:after{
+	font-size:20px;	
+}
+    .main-text .main-text2:after{
+        font-size:50px;
+left: 80px;
+    position: absolute;
+zoom: 50%;
+
+    }
+
+.main-date {
+padding-top:120px
+}
+	.main-date span{
+font-size:15px;
+}
+    .section-promotion .section-promotion__list{
+        height:175px!important
+    }
+    .section-promotion{
+        top:0;
+        padding-top:40px !important;
+    }
+    #showsidebar1 img,#showsidebar2 img ,#showsidebar3 img{
+        height:100px!important
+    }
+	#showsidebar3{
+        bottom:36%!important
+    }
+    #showsidebar2{
+        bottom:22%!important
+    }
+    #showsidebar1{
+        bottom:8%!important
+    }
+}
